@@ -21,3 +21,28 @@ span {
 .rotate{
     transform: rotate(90deg);
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.sketchfab-embed-wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.email {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.margins {
+    margin: 4vh 4vw;
+}

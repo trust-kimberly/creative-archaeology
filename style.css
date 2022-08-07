@@ -27,9 +27,18 @@ html, body {
     padding: 0;
 }
 
-.sketchfab-embed-wrapper {
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.project-page {
     height: 100vh;
     width: 100vw;
+}
+
+.landing-embed {
+    height: 60vh;
+    width: 92vw;
 }
 
 a {
@@ -45,4 +54,30 @@ a.email {
 
 .margins {
     margin: 4vh 4vw;
+    width: 92vw;
 }
+
+section {
+    margin-bottom: 5rem;
+}
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 1.625rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    
+    h1 {
+        font-size: 3.8rem;
+        margin-bottom: 1.625rem;
+    }
+
+    section {
+      margin-bottom: 2.8rem;
+    }
+  }

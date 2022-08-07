@@ -1,3 +1,27 @@
+span {
+    display: inline-block;
+}
+.accordion {
+    background-color: white;
+    width: 100vw;
+    text-align: left;
+    transition: 0.4s;
+    border: none;
+    padding: 0px 0px 8px 0px;
+    color: blue;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.rotate{
+    transform: rotate(90deg);
+}
+
 html, body {
     margin: 0;
     padding: 0;

@@ -52,11 +52,15 @@ a {
     text-decoration: none;
 }
 
-a.email {
+.project-page-links {
     bottom: 0;
     position: absolute;
     text-align: center;
     width: 100%;
+}
+
+.project-page-links > h3 {
+    margin: 8px 0;
 }
 
 .margins {
@@ -80,6 +84,7 @@ li {
 h1 {
     font-size: 6rem;
     margin-bottom: 1.625rem;
+    text-align: justify;
   }
   
   h2 {

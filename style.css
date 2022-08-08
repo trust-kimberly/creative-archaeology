@@ -53,11 +53,15 @@ a {
     text-decoration: none;
 }
 
-a.email {
+.project-page-links {
     bottom: 0;
     position: absolute;
     text-align: center;
     width: 100%;
+}
+
+.project-page-links > h3 {
+    margin: 8px 0;
 }
 
 .margins {
@@ -66,7 +70,7 @@ a.email {
 }
 
 section {
-    margin-bottom: 4rem;
+    margin-bottom: 4em;
 }
 
 section p {
@@ -79,14 +83,14 @@ li {
 }
 
 h1 {
-    font-size: 6rem;
-    margin-bottom: 1.625rem;
+    font-size: 6em;
+    text-align: justify;
   }
   
 h2 {
-    font-size: 2rem;
+    font-size: 2em;
     text-decoration: underline;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.6em 0;
 }
 
 @media only screen and (max-width: 500px) {
@@ -95,15 +99,15 @@ h2 {
         font-size: 3.8rem;
         margin-bottom: 2.8rem;
         line-height: 1;
-        /* margin-bottom: 1.625rem; */
     }
 
     h2 {
         font-size: 4em;
+        margin-bottom: 1.625em;
     }
 
     section {
-      margin-bottom: 2.8rem;
+      margin-bottom: 2.8em;
     }
 
     p { 

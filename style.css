@@ -1,3 +1,10 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 span {
     display: inline-block;
 }
@@ -11,6 +18,15 @@ span {
     color: blue;
 }
 
+button {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.spread {
+    display: flex;
+    justify-content: space-between;
+}
+
 .panel {
     padding: 0 18px;
     background-color: white;
@@ -20,11 +36,6 @@ span {
 
 .rotate{
     transform: rotate(90deg);
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
 }
 
 .sketchfab-embed-wrapper {

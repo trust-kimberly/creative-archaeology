@@ -2,15 +2,10 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-size: 18px;
 }
 
 * {
     font-family: 'Times New Roman', Times, serif;
-}
-
-main {
-    max-width: 1200px;
 }
 
 span {
@@ -25,16 +20,16 @@ span {
 
 #accordion {
     background-color: white;
-    width: 92vw;
+    width: 100vw;
     text-align: left;
     transition: 0.4s;
     border: none;
-    padding: 0px;
+    padding: 0px 0px 8px 0px;
     color: blue;
 }
 
 .panel {
-    padding: 0 1em;
+    padding: 0 18px;
     background-color: white;
     display: none;
     overflow: hidden;
@@ -58,15 +53,11 @@ a {
     text-decoration: none;
 }
 
-.project-page-links {
+a.email {
     bottom: 0;
     position: absolute;
     text-align: center;
     width: 100%;
-}
-
-.project-page-links > h3 {
-    margin: 8px 0;
 }
 
 .margins {
@@ -75,7 +66,11 @@ a {
 }
 
 section {
-    margin-bottom: 4em;
+    margin-bottom: 5rem;
+}
+
+section p {
+    max-width: 44em;
 }
 
 li {
@@ -84,42 +79,23 @@ li {
 }
 
 h1 {
-    font-size: 6em;
-    text-align: justify;
+    font-size: 6rem;
+    margin-bottom: 1.625rem;
   }
   
 h2 {
-    font-size: 2.6em;
+    font-size: 2rem;
     text-decoration: underline;
-    margin: 0 0 0.6em 0;
 }
 
-p {
-    text-align: justify;
-}
-
-@media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 500px) {
     
     h1 {
-        font-size: 1.8em;
-        margin: 1.8em 0;
-        line-height: 1;
-    }
-
-    h2 {
-        font-size: 2em;
-        margin-bottom: .8em;
+        font-size: 3.8rem;
+        margin-bottom: 1.625rem;
     }
 
     section {
-        margin-bottom: 3.2em;
+      margin-bottom: 2.8rem;
     }
-
-    p { 
-        margin-bottom: 1.2em;
-    }
-
-    li {
-        margin-left: 1em;
-    }
-}
+  }

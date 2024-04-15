@@ -1,25 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <title>Creative Archaeology</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantum Snake Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<br>
 <body>
-    <h1>Quantum Snake Game</h1>
-    <canvas id="gameCanvas"></canvas>
-    <div id="gameInfo">
-        <button id="rollDieButton" onclick="rollQuantumDie()">Roll Quantum Die</button>
-        <div id="dieResult">Die Result: <span id="dieOutcome"></span></div>
-        <div id="specialMessage"></div>
-    </div>
-    <div id="mobileControls">
-        <button onclick="changeDirection('Up')">Up</button>
-        <button onclick="changeDirection('Down')">Down</button>
-        <button onclick="changeDirection('Left')">Left</button>
-        <button onclick="changeDirection('Right')">Right</button>
-    </div>
-    <script src="script.js"></script>
+    <main class="margins">
+        <header>
+            <h1><div class="justify-title"><span>C</span><span>R</span><span>E</span><span>A</span><span>T</span><span>I</span><span>V</span><span>E</span></div><div class="justify-title"><span>A</span><span>R</span><span>C</span><span>H</span><span>A</span><span>E</span><span>O</span><span>L</span><span>O</span><span>G</span><span>Y</span></div></h1>
+        </header>
+            <p>Buried within Creative Archaeology are an untold number of sculptures free for the taking. In this installation, the viewer is the Creative Archaeologist encountering sculptures within a sculptured archeological dig site.</p>
+            <p>Creative Archaeologists are permitted to freely excavate the dig site. They may further reveal, conceal, or claim ownership of any sculpture they discover. Some of the sculptures are embedded with chips programmed to point to the sculpture’s Certificate of Authenticated Title <a href="COAT.html">(COAT)</a> — a bespoke ERC-721 smart contract which is an, inalienable, digital, legally bound component of the sculpture. Explore the smart contract <a href="https://etherscan.io/token/0x4298f4c039817f4d0c37d59548bd008d0a908e57?a=0x55DE9e5BeCe0A293eAa6Ee0fdd73A42f7222d0bB#code">here</a></p>
+            <p>Any act which seeks to or does so divorce the sculpture from its COAT, including but not limited to the sale of either component independently of the other, effects mutilation of the artwork. Further, the sculpture remains the exclusive property of Hamzat until the COAT is transacted to the Creative Archaeologist.</p>
+            <p>FWB FEST 2022 is the inaugural staging of Creative Archaeology. Scans and documentation of the buried sculptures are accessible below.</p>
+        <p>Sincerely,</p>
+        <p>Hamzat</p>      
+        </section>
+        <section>
+          <button id="accordion">
+                 <h2><span id="carron" class="">&#187;</span><span>&nbsp;</span>FWB FEST 22</h2>
+            </button>
+            <div class="panel">
+                <ui>
+                    <li><a href="fwb-13523301.html">FWB Tablet</a></li>
+                    <li><a href="fwb-93293992X.html">Copy of Copy of Michelangelo’s David’s Ear With AirPod™️</a></li>
+                    <li><a href="fwb-07954916X.html">Black Face White Stone (Hydrostone Mode)</a></li>
+                    <li><a href="fwb-27706487X.html">Face 55:1000 (Noseless Michael Jackson With Skin Condition)</a></li>
+                    <li><a href="fwb-93203216X.html">Face 1:1000 (Mother)</a></li>
+                    <li><a href="fwb-62717175X.html">⛈ (Hydrostone Mode)</a></li>
+                    <li><a href="fwb-35599748X.html">🕊(Hydrostone Mode)</a></li>
+                </ui>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
